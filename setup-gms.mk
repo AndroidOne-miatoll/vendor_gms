@@ -51,3 +51,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.personal_safety_suw_enabled=true \
     setupwizard.theme=glif_v4_light
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    MinimalPackage
