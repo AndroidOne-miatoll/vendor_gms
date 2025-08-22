@@ -146,3 +146,8 @@ product/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml
 system/system/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 system_ext/etc/sysconfig/preinstalled-packages-com.android.google.avatarpicker.xml
+
+# PixelDrop2024
+product/etc/default-permissions/default-permissions-com.google.android.apps.pixel.agent.xml|30433a796f84a81e321e3b3af811714cde2141f6
+product/etc/sysconfig/pixel_experience_2024.xml|0ea10e5b7992754d408f1f0288bfa0cba69ce362
+product/etc/sysconfig/pixel_experience_2024_midyear.xml|af3dbd434652dbf94d86e75e1a3c0ab2fe446fe2
