@@ -12,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/partner-gms/proprietary/product/etc/default-permissions/default-permissions-safetyhub.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-safetyhub.xml \
     vendor/gms/partner-gms/proprietary/product/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
     vendor/gms/partner-gms/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
+    vendor/gms/partner-gms/proprietary/product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml \
     vendor/gms/partner-gms/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/gms/partner-gms/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/gms/partner-gms/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
