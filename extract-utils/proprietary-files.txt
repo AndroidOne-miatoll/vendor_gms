@@ -2,7 +2,6 @@
 
 # GMS cellular application packages
 product/app/GoogleContacts/GoogleContacts.apk;OVERRIDES=Contacts,Contacts2;PRESIGNED
-product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;PRESIGNED
 product/etc/permissions/com.google.android.dialer.support.xml
 product/framework/com.google.android.dialer.support.jar
 product/priv-app/GoogleDialer/GoogleDialer.apk;OVERRIDES=Dialer;PRESIGNED
@@ -36,9 +35,7 @@ product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices/AndroidPl
 product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/TfliteDynamitePrebuilt/TfliteDynamitePrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt/VisionBarcodePrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;PRESIGNED
 product/priv-app/SetupWizardPrebuilt_v770521008/SetupWizardPrebuilt_v770521008.apk;OVERRIDES=Provision,LineageSetupWizard;PRESIGNED
-product/priv-app/Velvet/Velvet.apk;PRESIGNED
 product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk;PRESIGNED
 system/system/app/GoogleExtShared/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
 system/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk:system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk;PRESIGNED
@@ -48,7 +45,6 @@ system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNE
 # GMS Intelligence specific application packages
 product/priv-app/AICorePrebuilt-aicore_20250130.00_RC01/AICorePrebuilt-aicore_20250130.00_RC01.apk;PRESIGNED
 product/priv-app/DeviceIntelligenceNetworkPrebuilt-bfinal_astrea_20250217.00_RC00/DeviceIntelligenceNetworkPrebuilt-bfinal_astrea_20250217.00_RC00.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08/DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08.apk;PRESIGNED
 product/priv-app/HealthIntelligenceStubPrebuilt/HealthIntelligenceStubPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED
 
@@ -56,10 +52,6 @@ product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePr
 product/app/Chrome-Stub/Chrome-Stub.apk;OVERRIDES=webview,Browser2,Jelly;PRESIGNED
 product/app/Chrome/Chrome.apk.gz;PRESIGNED
 product/app/Drive/Drive.apk;PRESIGNED
-product/app/Maps/Maps.apk;PRESIGNED
-product/app/Photos/Photos.apk;PRESIGNED
-product/app/PrebuiltGmail/PrebuiltGmail.apk;PRESIGNED
-product/app/YouTube/YouTube.apk;PRESIGNED
 product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk;PRESIGNED
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
 

@@ -1,0 +1,8 @@
+product/app/Maps/Maps.apk;PRESIGNED
+product/app/Photos/Photos.apk;PRESIGNED
+product/app/YouTube/YouTube.apk;PRESIGNED
+product/app/PrebuiltGmail/PrebuiltGmail.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08/DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08.apk;PRESIGNED
+product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk;PRESIGNED
+product/priv-app/Velvet/Velvet.apk;PRESIGNED
