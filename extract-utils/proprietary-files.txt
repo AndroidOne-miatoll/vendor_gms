@@ -68,7 +68,6 @@ product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
 product/priv-app/SearchSelectorPrebuilt/SearchSelectorPrebuilt.apk;PRESIGNED
 product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
 system/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk:system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;OVERRIDES=DocumentsUI;PRESIGNED
-system/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk:system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;PRESIGNED
 system/system/priv-app/TagGoogle/TagGoogle.apk:system/priv-app/TagGoogle/TagGoogle.apk;PRESIGNED
 system_ext/app/AccessibilityMenu/AccessibilityMenu.apk;PRESIGNED
 system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk;PRESIGNED
