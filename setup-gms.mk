@@ -13,6 +13,9 @@ $(call inherit-product, vendor/gms/voice/voice-vendor.mk)
 # Build Pixel Sounds
 $(call inherit-product, vendor/gms/media/media-vendor.mk)
 
+# Build GoogleExtServices
+$(call inherit-product, vendor/gms/custom-gms/proprietary/GoogleExtServices/setup.mk)
+
 # Default ringtone/notification/alarm sounds
 PRODUCT_PRODUCT_PROPERTIES += \
 	ro.config.ringtone=The_big_adventure.ogg \
