@@ -1,0 +1,186 @@
+// Auto-generated Android.bp for proprietary APKs
+
+
+genrule {
+    name: "merge_Maps",
+    srcs: [
+        "proprietary/Maps/*.apk*",
+    ],
+    out: ["Maps.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "Maps",
+    owner: "gms",
+    apk: ":merge_Maps",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: false,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_Photos",
+    srcs: [
+        "proprietary/Photos/*.apk*",
+    ],
+    out: ["Photos.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "Photos",
+    owner: "gms",
+    apk: ":merge_Photos",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: false,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_YouTube",
+    srcs: [
+        "proprietary/YouTube/*.apk*",
+    ],
+    out: ["YouTube.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "YouTube",
+    owner: "gms",
+    apk: ":merge_YouTube",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: false,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_PrebuiltGmail",
+    srcs: [
+        "proprietary/PrebuiltGmail/*.apk*",
+    ],
+    out: ["PrebuiltGmail.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "PrebuiltGmail",
+    owner: "gms",
+    apk: ":merge_PrebuiltGmail",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: false,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08",
+    srcs: [
+        "proprietary/DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08/*.apk*",
+    ],
+    out: ["DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08",
+    owner: "gms",
+    apk: ":merge_DevicePersonalizationPrebuiltPixel2023-bfinal_aiai_20250217.00_RC08",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_PrebuiltBugle",
+    srcs: [
+        "proprietary/PrebuiltBugle/*.apk*",
+    ],
+    out: ["PrebuiltBugle.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "PrebuiltBugle",
+    owner: "gms",
+    apk: ":merge_PrebuiltBugle",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_PrebuiltGmsCoreVic",
+    srcs: [
+        "proprietary/PrebuiltGmsCoreVic/*.apk*",
+    ],
+    out: ["PrebuiltGmsCoreVic.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "PrebuiltGmsCoreVic",
+    owner: "gms",
+    apk: ":merge_PrebuiltGmsCoreVic",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    system_ext_specific: false,
+}
+
+genrule {
+    name: "merge_Velvet",
+    srcs: [
+        "proprietary/Velvet/*.apk*",
+    ],
+    out: ["Velvet.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+
+android_app_import {
+    name: "Velvet",
+    owner: "gms",
+    apk: ":merge_Velvet",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    system_ext_specific: false,
+}
